@@ -170,6 +170,11 @@
       color: var(--muted);
       opacity: 0.45;
     }
+  
+    /* Clan MacKenzie crest replaces the M monogram */
+    .monogram.crest { font-size: 0; line-height: 0; letter-spacing: 0; text-shadow: none; margin-bottom: 1rem; }
+    .monogram.crest img { height: 11.5rem; width: auto; display: inline-block;
+       filter: drop-shadow(0 2px 18px rgba(201,168,76,0.22)); }
   </style>
 </head>
 <body>
@@ -177,7 +182,7 @@
 
     <div class="rule"><div class="rule-diamond"></div></div>
 
-    <div class="monogram">M</div>
+    <div class="monogram crest"><img src="crest-mackenzie.svg" alt="Clan MacKenzie crest" /></div>
     <div class="family-name">MacKenzie</div>
 
     <div class="divider"></div>
